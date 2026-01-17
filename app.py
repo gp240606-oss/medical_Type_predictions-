@@ -13,7 +13,7 @@ import streamlit as st
 import pandas as pd
 
 # Load trained model
-model = joblib.load("Medicaldataset_type_prediction.pkl")
+model = joblib.load("Medical_modle.pkl")
 
 st.set_page_config(page_title="Medical Result Prediction",layout="centered")
 
