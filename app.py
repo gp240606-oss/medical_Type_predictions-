@@ -22,7 +22,7 @@ st.write("Predict whether the patient result is **Positive or Negative** using m
 
 # Inputs
 Age = st.number_input(" Enter the  Age 🧑‍⚕️:",value=None)
-Gender = st.selectbox(" select Gender 🧑‍⚕️:", ["Male", "Female"],value=None)
+Gender = st.selectbox(" select Gender 🧑‍⚕️:", ["Male", "Female"])
 Heart_rate = st.number_input(" Enter the Heart Rate ❤️:",value=None)
 Systolic_bp = st.number_input(" Enter the Systolic Blood Pressure 💉:",value=None)
 Diastolic_bp = st.number_input(" Enter the Diastolic Blood Pressure 💉:",value=None)
