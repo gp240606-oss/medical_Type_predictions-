@@ -50,8 +50,10 @@ if st.button("Predict"):
 
     if prediction == 1:
         print("🧑‍⚕️ Thank you 🧑‍⚕️🧑‍⚕️")
-        st.success("🫀📊 **Result: POSITIVE**")
+        st.success("""🫀📊 **Result: POSITIVE**
+                        🧑‍⚕️🧑‍⚕️ Thank you 🫀🧑‍⚕️""")
     else:
         print("🧑‍⚕️ Thank you 🧑‍⚕️")
-        st.success("🫀📊 **Result: NEGATIVE**")
+        st.success("""🫀📊 **Result: NEGATIVE**
+                        🫀🧑‍⚕️🧑‍⚕️ Thank you 🫀🧑‍⚕️""")
       
