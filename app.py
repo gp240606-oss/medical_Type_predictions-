@@ -49,8 +49,9 @@ if st.button("Predict"):
     prediction = model.predict(input_data)[0]
 
     if prediction == 1:
+          print("🧑‍⚕️ Thank you 🧑‍⚕️🧑‍⚕️")
         st.success("🫀📊 **Result: POSITIVE**")
-        print("🧑‍⚕️ Thank you 🧑‍⚕️🧑‍⚕️")
     else:
+         print("🧑‍⚕️ Thank you 🧑‍⚕️")
         st.success("🫀📊 **Result: NEGATIVE**")
-        print("🧑‍⚕️ Thank you 🧑‍⚕️")
+      
